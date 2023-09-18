@@ -1,9 +1,5 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Lewis
-  Description: Leiws - Creative Portfolio HTML Template
-  Author: Paul
-  Author URI: http://themeforest.net/user/paul_tf
 
   1.  Global
 
@@ -1530,8 +1526,8 @@ input:focus {
   background-size: cover;
 }
 
-.mountains.animated {
-}
+/* .mountains.animated {
+} */
 
 .house-left {
   position: fixed;
@@ -2970,8 +2966,8 @@ a:hover .zooming img {
   margin-right: -10%;
 }
 
-.promo-zoom-footer img {
-}
+/* .promo-zoom-footer img {
+} */
 
 @media (min-width: 768px) {
   .promo-zoom-footer .inside {
@@ -3888,8 +3884,8 @@ a.btn-play i {
   transform: scale(1) !important;
 }
 
-.slide-bg-list .slide-bg.active:first-child > .inside {
-}
+/* .slide-bg-list .slide-bg.active:first-child > .inside {
+} */
 
 .slide-bg-list .slide-bg > .inside {
   opacity: 0;
