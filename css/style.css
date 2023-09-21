@@ -1468,6 +1468,10 @@ input:focus {
   display: block;
 }
 
+.nav-logo .logo {
+  margin-top: -105px;
+}
+
 .header-custom .social,
 .header-custom .menu-lang {
   margin-top: .5rem;
@@ -1568,16 +1572,19 @@ input:focus {
 }
 
 .top-title {
+  margin-top: 1.5rem;
   margin-bottom: 1.25rem;
   font-size: 1.125rem;
+  font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: .5625rem;
-  color: #666666;
+  color: #353535;
 }
 
 .promo-zoom-titles h1,
 .promo-screen-titles h1 {
-  font-size: 11.11111111vmin;
+  margin-top: -10px;
+  font-size: 25.11111111vmin;
   font-weight: bold;
 }
 
@@ -1597,10 +1604,26 @@ input:focus {
 
 .promo-zoom-titles .slogan,
 .promo-screen-titles .slogan {
-  margin-top: 1.125rem;
-  font-size: 1.25rem;
+  margin-top: 3.125rem;
+  font-size: 1.15rem;
   color: #666666;
-  line-height: 1.5;
+  line-height: 1.2;
+}
+
+.promo-zoom-titles .slogan,
+.promo-screen-titles .slogan .upper {
+  margin-top: 0;
+  font-size: 1.1rem;
+  letter-spacing: .15rem;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.promo-zoom-titles .slogan,
+.promo-screen-titles .slogan .lower {
+  margin-top: 0;
+  font-size: 2.0rem;
+  color: #424242;
 }
 
 .brand .text-texture {
@@ -1795,9 +1818,10 @@ input:focus {
   height: 7.125rem;
 }
 
+
+
 .rounded-logo-sm .logo {
-  margin-top: .25rem;
-  font-size: 2.5rem;
+  margin-top: .15rem;
 }
 
 .rounded-logo-md {
@@ -5036,15 +5060,20 @@ a.minimal-item:hover {
   transform: translate(2rem, 0%);
 }
 
+.project-carousel-3d .project-carousel-item .project-carousel-title,
+.project-carousel-3d .project-carousel-item .project-carousel-date {
+  color: #eeeeee;
+}
+
 .project-carousel-3d .project-carousel-item:not(.text-white) .project-carousel-title,
 .project-carousel-3d .project-carousel-item:not(.text-white) .project-carousel-date {
-  color: #000000;
+  color: #eeeeee;
 }
 
 .project-carousel-3d .project-carousel-item .project-carousel-category,
 .project-listing-category,
 .project-masonry-category {
-  color: #999999;
+  color: #c9c9c9;
 }
 
 .project-carousel-3d .project-carousel-category,
